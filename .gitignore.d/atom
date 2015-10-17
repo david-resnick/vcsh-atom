@@ -1,0 +1,14 @@
+*
+!/.atom
+!/.atom/.apm
+!/.atom/.apm/.apmrc
+!/.atom/.gitignore
+!/.atom/config.cson
+!/.atom/init.coffee
+!/.atom/keymap.cson
+!/.atom/packages
+!/.atom/packages/README.md
+!/.atom/snippets.cson
+!/.atom/styles.less
+!/.gitignore.d
+!/.gitignore.d/atom
