@@ -1,10 +1,106 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "fd116d45-5a41-4c16-b77c-5f047a573b3d"
+  "autocomplete-plus":
+    confirmCompletion: "tab always, enter when suggestion explicitly selected"
+  core:
+    allowPendingPaneItems: false
+    closeEmptyWindows: false
+    disabledPackages: [
+      "activate-power-mode"
+      "atom-keyboard-macros"
+      "lisp-paredit"
+      "auto-detect-indentation"
+      "wrap-guide"
+    ]
+    excludeVcsIgnoredPaths: false
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "oceanic-next-italic"
+    ]
+    titleBar: "custom"
+  editor:
+    autoIndentOnPaste: false
+    fontFamily: "Fira Code"
+    fontSize: 12
+    invisibles: {}
+    preferredLineLength: 160
+    showIndentGuide: true
+    showInvisibles: true
+    undoGroupingInterval: 100
   "exception-reporting":
     userId: "7f0eb189-e1d2-a513-5e4a-ed36cb2462ba"
+  linter: {}
+  "linter-ui-default":
+    panelHeight: 69
+  "lisp-paredit": {}
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "multi-wrap-guide": {}
+  parinfer:
+    "file-extensions": [
+      ".boot"
+      ".cl"
+      ".clj"
+      ".cljc"
+      ".cljs"
+      ".edn"
+      ".el"
+      ".lfe"
+      ".lisp"
+      ".lsp"
+      ".rkt"
+      ".scm"
+    ]
+  "project-plus":
+    showPath: true
+  "proto-repl":
+    autoPrettyPrint: true
+    autoScroll: false
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "tool-bar":
+    position: "Right"
+    visible: false
+  "tree-view": {}
+  wakatime:
+    apikey: "Saved in your ~/.wakatime.cfg file"
+  "wakatime-hidden":
+    lastInit: 1493282529
   welcome:
     showOnStartup: false
-  core: {}
+  zentabs:
+    maximumOpenedTabs: 7
+    neverCloseDirty: true
+    neverCloseNew: true
+    neverCloseUnsaved: true
+".clojure.source":
   editor:
-    invisibles: {}
-    fontSize: 12
-    showInvisibles: true
+    autoIndent: false
+    nonWordCharacters: "()\"':,;~@#$%^&{}[]`"
+    scrollPastEnd: true
+".gfm.source":
+  editor:
+    preferredLineLength: 100
+  "multi-wrap-guide":
+    columns: [
+      100
+    ]
+".lua.source":
+  editor:
+    preferredLineLength: 120
+".makefile.source":
+  editor:
+    preferredLineLength: 160
+  "multi-wrap-guide":
+    columns: [
+      160
+    ]
